@@ -22,9 +22,9 @@ print(dias.index('otro'))
 
 print(dias[3])
 
-print(dias)
+dias = ['LUNES', 'MARTES', 'Otro mas', 'MIERCOLES', 'JUEVES', 'VIERNES', 'Sabado', 'Domingo', 'otro']
 
-dias.pop(6)
+dias.pop(8)
 print(dias)
 
 dias.remove('Otro mas')

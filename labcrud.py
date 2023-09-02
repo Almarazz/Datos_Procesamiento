@@ -36,20 +36,20 @@ while True:
  if (opcion.upper()=="B"):
    asistente=input("Asistente a buscar: ")
 
- if Asistentes.count(asistente)==0:
-   print("Asistente no encontrado.")
- else:
-   posicion=Asistentes.index(asistente)
-   print(f"Asistente encontrado. Índice {posicion}")
+   if Asistentes.count(asistente)==0:
+      print("Asistente no encontrado.")
+   else:
+      posicion=Asistentes.index(asistente)
+      print(f"Asistente encontrado. Índice {posicion}")
 
  if (opcion.upper()=="E"):
    asistente=input("Asistente a eliminar: ")
 
- if Asistentes.count(asistente)==0:
-   print("Asistente no encontrado. No se puede eliminar.")
- else:
-   Asistentes.remove(asistente)
-   print("Asistente eliminado.")
+   if Asistentes.count(asistente)==0:
+      print("Asistente no encontrado. No se puede eliminar.")
+   else:
+      Asistentes.remove(asistente)
+      print("Asistente eliminado.")
  
  if (opcion.upper()=="V"):
    print(f"Elementos en la lista: {len(Asistentes)} ")

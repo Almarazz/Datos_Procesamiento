@@ -1,0 +1,8 @@
+print("\nMenú de opciones:")
+print("\t[A] Agregar")
+print("\t[B] Buscar")
+print("\t[E] Eliminar elemento")
+print("\t[M] Modificar elemento")
+print("\t[V] Ver datos")
+print("\t[Q] Quitar todos los elementos de la lista")
+print("\t[S] Salir")
